@@ -1,0 +1,9 @@
+{
+  "commands": [
+    "help",
+    "stop",
+    "reload",
+    "plugins",
+    "version"
+  ]
+}

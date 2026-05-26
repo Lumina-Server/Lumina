@@ -1,0 +1,10 @@
+_config-version: 30
+
+verbose: false
+
+timings:
+  enabled: false
+
+messages:
+  kick:
+    flying-player: Flying is not enabled on this server

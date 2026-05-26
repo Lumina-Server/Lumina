@@ -1,0 +1,11 @@
+{
+  "java": {
+    "protocol": 769,
+    "minecraft": "1.21.5"
+  },
+
+  "bedrock": {
+    "protocol": 776,
+    "minecraft": "1.21.0"
+  }
+}

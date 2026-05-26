@@ -1,0 +1,9 @@
+general-topics:
+  Lumina:
+    shortText: Lumina Minecraft Server
+    fullText: Native Minecraft software written for Lumina
+
+index-topics:
+  Default:
+    shortText: Default Commands
+    permissions: []

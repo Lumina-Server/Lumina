@@ -1,0 +1,5 @@
+# lumina-bootstrap/src/main/resources/lumina-bootstrap.properties
+name=Lumina
+port=25565
+online-mode=true
+max-players=100

@@ -1,0 +1,5 @@
+libraries:
+  - io.netty:netty-all:4.1.108.Final
+  - com.google.code.gson:gson:2.10.1
+  - org.slf4j:slf4j-api:2.0.13
+  - org.lz4:lz4-java:1.8.0

@@ -1,0 +1,12 @@
+name: world
+
+environment: NORMAL
+
+difficulty: EASY
+
+pvp: true
+
+spawn:
+  x: 0
+  y: 64
+  z: 0

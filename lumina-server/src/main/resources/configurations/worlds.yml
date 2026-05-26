@@ -1,0 +1,15 @@
+worlds:
+  world:
+    difficulty: EASY
+    pvp: true
+    environment: NORMAL
+
+  world_nether:
+    difficulty: EASY
+    pvp: true
+    environment: NETHER
+
+  world_the_end:
+    difficulty: EASY
+    pvp: true
+    environment: THE_END

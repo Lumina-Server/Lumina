@@ -1,0 +1,9 @@
+console:
+  colored: true
+
+files:
+  rotate: true
+  max-files: 10
+
+debug:
+  packets: false

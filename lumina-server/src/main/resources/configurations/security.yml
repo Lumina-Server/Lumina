@@ -1,0 +1,6 @@
+security:
+  enforce-secure-profile: true
+  validate-chat-signatures: true
+
+proxy:
+  prevent-connections: false

@@ -1,0 +1,5 @@
+storage:
+  format: anvil
+
+compression:
+  type: deflate

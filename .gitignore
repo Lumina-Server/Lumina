@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Logs
+logs/
+*.log
+
+# Runtime
+run/
+world/
+world_nether/
+world_the_end/
+
+# Java
+*.class
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+caches/

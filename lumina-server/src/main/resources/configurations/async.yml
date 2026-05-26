@@ -1,0 +1,5 @@
+async:
+  pathfinding: true
+  chunk-io: true
+  entity-tracking: true
+  lighting: true

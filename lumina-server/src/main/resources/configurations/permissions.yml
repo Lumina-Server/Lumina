@@ -1,0 +1,8 @@
+groups:
+  default:
+    permissions:
+      - lumina.help
+
+  admin:
+    permissions:
+      - "*"

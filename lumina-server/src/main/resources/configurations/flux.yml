@@ -1,0 +1,42 @@
+# =========================================================
+# Flux Bedrock Translator
+# Java Edition ↔ Bedrock Edition
+# =========================================================
+
+enabled: true
+
+bedrock:
+  host: "0.0.0.0"
+  port: 19132
+
+  motd: "Powered by Lumina"
+  sub-motd: "Bedrock Support Enabled"
+
+  compression-level: 6
+  max-players: 100
+
+translation:
+  inventory: true
+  forms: true
+  scoreboards: true
+  entities: true
+  commands: true
+  bossbars: true
+  particles: true
+  sounds: true
+
+compatibility:
+  geyser-extensions: false
+  floodgate-auth: true
+
+players:
+  allow-bedrock-skins: true
+  allow-bedrock-capes: true
+
+network:
+  raknet-threads: 2
+  packet-batching: true
+
+debug:
+  packet-logging: false
+  translation-logging: false

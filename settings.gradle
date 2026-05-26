@@ -1,0 +1,22 @@
+// settings.gradle.kts
+rootProject.name = "Lumina"
+
+include(
+    "lumina-common",
+    "lumina-config",
+    "lumina-logging",
+    "lumina-network",
+    "lumina-world",
+    "lumina-entity",
+    "lumina-scheduler",
+    "lumina-command",
+    "lumina-event",
+    "lumina-api",
+    "lumina-plugin",
+    "lumina-prism",
+    "lumina-flux",
+    "lumina-bootstrap",
+    "lumina-launcher",
+    "lumina-cli",
+    "lumina-testkit"
+)

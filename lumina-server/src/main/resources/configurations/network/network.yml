@@ -1,0 +1,12 @@
+compression:
+  threshold: 256
+
+tcp:
+  no-delay: true
+  fast-open: true
+
+udp:
+  buffer-size: 2097152
+
+epoll:
+  enabled: true

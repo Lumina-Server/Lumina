@@ -1,0 +1,11 @@
+{
+  "minecraft:stone": {
+    "runtimeId": 1,
+    "stackSize": 64
+  },
+
+  "minecraft:diamond_sword": {
+    "runtimeId": 2,
+    "stackSize": 1
+  }
+}

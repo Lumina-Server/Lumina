@@ -1,0 +1,5 @@
+{
+  "server.starting": "Menjalankan server Lumina...",
+  "server.started": "Server Lumina berhasil dijalankan.",
+  "server.stopping": "Menghentikan server Lumina..."
+}

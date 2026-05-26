@@ -1,0 +1,5 @@
+{
+  "server.starting": "Starting Lumina server...",
+  "server.started": "Lumina server started.",
+  "server.stopping": "Stopping Lumina server..."
+}

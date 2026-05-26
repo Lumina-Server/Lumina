@@ -1,0 +1,10 @@
+chunks:
+  async-generation: true
+  async-saving: true
+
+regionized:
+  enabled: true
+
+cache:
+  enabled: true
+  max-size: 2048

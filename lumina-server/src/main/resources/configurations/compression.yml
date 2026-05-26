@@ -1,0 +1,3 @@
+compression:
+  network-threshold: 256
+  chunk-compression-level: 6

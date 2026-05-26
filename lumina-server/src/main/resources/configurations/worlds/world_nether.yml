@@ -1,0 +1,7 @@
+name: world_nether
+
+environment: NETHER
+
+difficulty: EASY
+
+pvp: true

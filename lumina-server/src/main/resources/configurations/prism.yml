@@ -1,0 +1,52 @@
+# =========================================================
+# Prism Compatibility Layer
+# Bukkit / Spigot / Paper / Purpur Translator
+# =========================================================
+
+enabled: true
+
+compatibility:
+  bukkit: true
+  spigot: true
+  paper: true
+  purpur: true
+
+plugins:
+  directory: "plugins"
+
+  load-order:
+    strategy: "dependency"
+
+  strict-plugin-checks: false
+
+  allow-legacy-plugins: true
+
+scheduler:
+  emulate-bukkit-ticks: true
+  tick-rate: 20
+
+events:
+  emulate-paper-priorities: true
+  async-events: true
+
+permissions:
+  wildcard-support: true
+  recursive-children: true
+
+commands:
+  brigadier-support: true
+  legacy-command-map: true
+
+translation:
+  events: true
+  scheduler: true
+  permissions: true
+  commands: true
+  entities: true
+  inventories: true
+  worlds: true
+
+debug:
+  print-plugin-loads: true
+  print-event-translation: false
+  print-command-translation: false

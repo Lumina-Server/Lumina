@@ -1,0 +1,5 @@
+{
+  "minecraft:player": 1,
+  "minecraft:zombie": 2,
+  "minecraft:cow": 3
+}

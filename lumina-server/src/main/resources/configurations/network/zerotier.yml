@@ -1,0 +1,30 @@
+# =========================================================
+# ZeroTier Integration
+# =========================================================
+
+enabled: true
+
+network:
+  id: ""
+  auto-join: false
+
+interfaces:
+  auto-detect: true
+
+  preferred:
+    - "ZeroTier"
+    - "zt"
+
+bind:
+  java: true
+  bedrock: true
+
+security:
+  allow-untrusted-peers: false
+
+discovery:
+  broadcast-java-address: true
+  broadcast-bedrock-address: true
+
+console:
+  print-network-info: true

@@ -1,0 +1,4 @@
+cache:
+  chunks: true
+  entities: true
+  palettes: true

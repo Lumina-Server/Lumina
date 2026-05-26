@@ -1,0 +1,59 @@
+# =========================================================
+# Lumina Engine Configuration
+# =========================================================
+
+server:
+  brand: "Lumina"
+  version: "1.0.0"
+  distribution: "official"
+
+performance:
+  async-chunks: true
+  async-lighting: true
+  async-entities: true
+  async-pathfinding: true
+
+  regionized-ticking: true
+  parallel-worlds: true
+
+  worker-threads: 4
+  io-threads: 2
+  network-threads: 2
+
+  cache:
+    chunks: true
+    entities: true
+    block-states: true
+
+chunks:
+  save-interval: 300
+  unload-delay-seconds: 30
+  compression: "deflate"
+
+world:
+  auto-save: true
+  auto-save-interval: 300
+
+entity:
+  activation-range:
+    monsters: 32
+    animals: 32
+    misc: 16
+
+  tracking-range:
+    players: 128
+    monsters: 96
+    animals: 96
+    misc: 64
+
+network:
+  native-transport: true
+  compression-threshold: 256
+
+logging:
+  debug: false
+  log-player-ips: true
+
+console:
+  ansi-colors: true
+  timestamps: true

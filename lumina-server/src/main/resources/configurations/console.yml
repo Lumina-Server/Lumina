@@ -1,0 +1,6 @@
+console:
+  ansi: true
+  timestamps: true
+
+commands:
+  enabled: true
