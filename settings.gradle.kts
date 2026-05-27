@@ -18,5 +18,6 @@ include(
     "lumina-bootstrap",
     "lumina-launcher",
     "lumina-cli",
-    "lumina-testkit"
+    "lumina-testkit",
+    "lumina-server"
 )
