@@ -1,8 +1,9 @@
 // lumina-api/build.gradle.kts
 dependencies {
-    implementation(project(":lumina-common"))
-    implementation(project(":lumina-event"))
-    implementation(project(":lumina-scheduler"))
-    implementation(project(":lumina-world"))
-    implementation(project(":lumina-entity"))
+    api(project(":lumina-common"))
+    api(project(":lumina-event"))
+    api(project(":lumina-scheduler"))
+    api(project(":lumina-world"))
+    api(project(":lumina-entity"))
+    api(project(":lumina-logging"))
 }
