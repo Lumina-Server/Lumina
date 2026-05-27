@@ -6,7 +6,6 @@ import java.util.UUID;
 public final class PlayerEntity extends LivingEntity {
     private final String username;
     private final UUID profileId;
-    }
 
     public PlayerEntity(UUID uuid) {
         super(uuid, EntityType.PLAYER);
