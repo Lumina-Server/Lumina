@@ -9,9 +9,7 @@ public final class PlayerEntity extends LivingEntity {
 
     public PlayerEntity(UUID uuid) {
         super(uuid, EntityType.PLAYER);
-
-        this.username = username;
-        this.profileId = profileId;
+        this("Unkown", uuid);
     }
 
     @Override
