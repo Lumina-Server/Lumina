@@ -12,8 +12,17 @@ public abstract class BaseEntity implements Entity {
     private float pitch;
 
     @Override
-    public UUID id() {
-        return id;
+    public UUID uuid() {
+        return uuid;
+    }
+
+    @Override
+    public EntityType type() {
+        return type;
+    }
+
+    @Override
+    public void tick() {
     }
 
     public double x() { return x; }
