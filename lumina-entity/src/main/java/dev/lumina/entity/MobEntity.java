@@ -1,7 +1,7 @@
 // lumina-entity/src/main/java/dev/lumina/entity/MobEntity.java
 package dev.lumina.entity;
 
-import java.util.UUID
+import java.util.UUID;
 
 public abstract class MobEntity extends LivingEntity {
     protected MobEntity(UUID uuid, EntityType type) {
