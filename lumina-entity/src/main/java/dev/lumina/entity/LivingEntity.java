@@ -1,9 +1,11 @@
 // lumina-entity/src/main/java/dev/lumina/entity/LivingEntity.java
 package dev.lumina.entity;
 
+import java.util.UUID;
+
 public abstract class LivingEntity extends BaseEntity {
     protected LivingEntity(UUID uuid, EntityType type) {
-        super(uuid, type);
+        super(uuid, EntityType.PLAYER);
     }
 
     private double health = 20.0;

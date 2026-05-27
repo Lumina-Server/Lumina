@@ -4,7 +4,7 @@ package dev.lumina.entity;
 import java.util.UUID;
 
 public abstract class BaseEntity implements Entity {
-    private final UUID uuid = UUID.randomUUID();
+    private final UUID uuid;
     private final EntityType type;
 
     protected BaseEntity(UUID uuid, EntityType type) {

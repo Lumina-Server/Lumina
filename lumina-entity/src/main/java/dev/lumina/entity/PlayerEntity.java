@@ -17,6 +17,8 @@ public final class PlayerEntity extends LivingEntity {
     }
 
     public PlayerEntity(String username, UUID profileId) {
+        super(profileId, EntityType.PLAYER);
+
         this.username = username;
         this.profileId = profileId;
     }
