@@ -7,6 +7,15 @@ public final class PlayerEntity extends LivingEntity {
     private final String username;
     private final UUID profileId;
 
+    public PlayerEntity(UUID uuid) {
+        super(uuid, EntityType.PLAYER);
+    }
+
+    @Override
+    public void tick() {
+        // player tick logic
+    }
+
     public PlayerEntity(String username, UUID profileId) {
         this.username = username;
         this.profileId = profileId;

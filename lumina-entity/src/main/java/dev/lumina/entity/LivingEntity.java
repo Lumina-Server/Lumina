@@ -2,6 +2,10 @@
 package dev.lumina.entity;
 
 public abstract class LivingEntity extends BaseEntity {
+    protected LivingEntity(UUID uuid, EntityType type) {
+        super(uuid, type);
+    }
+
     private double health = 20.0;
 
     public double health() {
