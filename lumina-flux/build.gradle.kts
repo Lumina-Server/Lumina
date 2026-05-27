@@ -7,7 +7,6 @@ dependencies {
     // Core Lumina
     implementation(project(":lumina-api"))
     implementation(project(":lumina-network"))
-    implementation(project(":lumina-server"))
 
     // Prism compatibility
     implementation(project(":lumina-prism"))
