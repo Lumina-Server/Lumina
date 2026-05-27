@@ -8,7 +8,6 @@ public final class PlayerEntity extends LivingEntity {
     private final UUID profileId;
 
     public PlayerEntity(UUID uuid) {
-        super(uuid, EntityType.PLAYER);
         this("Unkown", uuid);
     }
 
@@ -17,7 +16,7 @@ public final class PlayerEntity extends LivingEntity {
         // player tick logic
     }
 
-    public PlayerEntity(String username, UUID profileId) {
+    public PlayerEntity(String username, UUID uuid, UUID profileId) {
         super(profileId, EntityType.PLAYER);
 
         this.username = username;
