@@ -1,10 +1,5 @@
 package dev.lumina.entity;
 
-import java.util.Collection;
-import java.util.Map;
-import java.util.UUID;
-import java.util.concurrent.ConcurrentHashMap;
-
 public final class SimpleEntityManager implements EntityManager {
 
     private final Map<UUID, Entity> entities = new ConcurrentHashMap<>();
