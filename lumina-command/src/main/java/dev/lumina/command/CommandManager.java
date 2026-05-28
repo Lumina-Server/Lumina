@@ -5,13 +5,13 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 public interface CommandManager {
-    private final Map<String, CommandNode> commands = new ConcurrentHashMap<>();
+    Map<String, CommandNode> commands = new ConcurrentHashMap<>();
 
-    public void register(CommandNode command) {
+    default void register(CommandNode command) {
         commands.put(command.name().toLowerCase(), command);
     }
 
-    public CommandDispatcher dispatcher() {
+    default CommandDispatcher dispatcher() {
         return new CommandDispatcher(commands);
     }
 }
