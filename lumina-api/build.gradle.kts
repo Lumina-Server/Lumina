@@ -1,6 +1,6 @@
 // lumina-api/build.gradle.kts
 plugin {
-   id 'java-library'
+   'java-library'
 }
 dependencies {
     api(project(":lumina-common"))
