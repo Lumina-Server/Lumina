@@ -8,7 +8,7 @@ public final class PlayerEntity extends LivingEntity {
     private final UUID profileId;
 
     public PlayerEntity(UUID uuid) {
-        this("Unkown", uuid);
+        this("Unknown", uuid, uuid);
     }
 
     @Override
