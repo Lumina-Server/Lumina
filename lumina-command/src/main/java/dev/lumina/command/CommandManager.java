@@ -4,7 +4,7 @@ package dev.lumina.command;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-public final class CommandManager {
+public interface CommandManager {
     private final Map<String, CommandNode> commands = new ConcurrentHashMap<>();
 
     public void register(CommandNode command) {

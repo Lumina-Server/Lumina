@@ -1,4 +1,7 @@
 // lumina-api/build.gradle.kts
+plugin {
+   id 'java-library'
+}
 dependencies {
     api(project(":lumina-common"))
     api(project(":lumina-event"))

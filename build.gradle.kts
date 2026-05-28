@@ -1,4 +1,5 @@
 plugins {
+    id("com.gradleup.shadow") version "9.0.0"
     java
 }
 
@@ -28,4 +29,13 @@ subprojects {
         options.encoding = "UTF-8"
         options.release.set(21)
     }
+}
+tasks.shadowJar {
+    archiveClassifier.set("")
+
+    destinationDirectory.set(
+        file("$rootDir/Lumina")
+    )
+
+    archiveFileName.set("lumina-server.jar")
 }
